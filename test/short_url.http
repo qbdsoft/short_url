@@ -6,7 +6,11 @@ X-Auth-Secret:{{auth_secret}}
 Content-Type: application/json
 
 {
+<<<<<<< HEAD
   "url": "https://mini.yidejia.com/sms/?code=T62",
+=======
+  "url": "https://www.yidejia.com",
+>>>>>>> develop
   "expired_at": "2021-12-02"
 }
 

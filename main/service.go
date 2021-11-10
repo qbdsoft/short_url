@@ -16,6 +16,19 @@ func main() {
     lib.InitRedis()
 
     r := gin.Default()
+<<<<<<< HEAD
+=======
+
+    r.GET("/", func(c *gin.Context) {
+        c.JSON(http.StatusOK, gin.H{
+            "message": "welcome",
+        })
+    })
+
+    r.StaticFile("/robots.txt","robots.txt")
+    r.GET("/:code", controller.Url.Trans)
+
+>>>>>>> develop
     rAuth := r.Group("/api/").Use(middleware.Auth())
     {
         rAuth.POST("url", controller.Url.Cov)
