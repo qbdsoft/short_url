@@ -23,6 +23,8 @@ func main() {
             "message": "welcome",
         })
     })
+
+    r.StaticFile("/robots.txt","robots.txt")
     r.GET("/:code", controller.Url.Trans)
 
     rAuth := r.Group("/api/").Use(middleware.Auth())
