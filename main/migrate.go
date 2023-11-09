@@ -14,6 +14,9 @@ func main() {
     lib.MysqlClient.AutoMigrate(&model.ShortUrl{})
     lib.MysqlClient.AutoMigrate(&model.Auth{})
 
+    //将字段字符集限定为大小写敏感
+    model.ShortUrl{}.DB().Exec("alter table short_url  modify code char(6) collate utf8_bin not null comment '短链标识'")
+
     //testAuth := model.Auth{
     //    Key:    "test",
     //    Secret: "123456",
