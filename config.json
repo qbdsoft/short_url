@@ -1,7 +1,8 @@
 {
-  "service_domain": "https://ydj.vip",
-  "service_port": "8090",
+  "service_domain": "http://link-test.meta-media.cc:9990",
+  "service_port": "9990",
   "service_env": "local",
-  "mysql_dsn": "root:123456@tcp(127.0.0.1:3306)/mall?charset=utf8mb4&parseTime=True&loc=Local",
-  "redis_addr": "127.0.0.1:6379"
+  "mysql_dsn": "cfuser:Y2MFdsSO@tcp(127.0.0.1:3306)/short_link?charset=utf8mb4&parseTime=True&loc=Local",
+  "redis_addr": "127.0.0.1:6379",
+  "redis_pwd": "cNvbWC4k"
 }

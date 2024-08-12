@@ -1,0 +1,8 @@
+{
+  "service_domain": "https://link.kolradar.io",
+  "service_port": "8889",
+  "service_env": "local",
+  "mysql_dsn": "cfuser:Y2MFdsSO@tcp(172.31.12.0:3306)/short_link3?charset=utf8mb4&parseTime=True&loc=Local",
+  "redis_addr": "172.31.13.21:6379",
+  "redis_pwd": "cNvbWC4k"
+}

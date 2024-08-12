@@ -1,0 +1,8 @@
+{
+  "service_domain": "https://link.meta-media.cc",
+  "service_port": "8889",
+  "service_env": "local",
+  "mysql_dsn": "cfuser:Y2MFdsSO@tcp(172.31.12.0:3306)/short_link?charset=utf8mb4&parseTime=True&loc=Local",
+  "redis_addr": "172.31.8.113:6379",
+  "redis_pwd": "cNvbWC4k"
+}

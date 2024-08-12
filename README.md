@@ -12,8 +12,8 @@
 
 1. Clone 本项目
 2. 修改配置`cp config.json.tmp config.json`，完善配置
-3. 数据迁移`go run main/migrate`
-4. 启动服务`go run main/service`
+3. 数据迁移`go run main/migrate.go`
+4. 启动服务`go run main/service.go`
 
 ### 使用方法
 
@@ -25,3 +25,7 @@
 ### 提供的接口
 
 详见：test目录下 `short_url.http`
+
+### 防止跨域（生成短链）
+https://h5.metamcn.io/shortlink_api/api/url
+

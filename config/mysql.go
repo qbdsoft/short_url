@@ -1,25 +1,25 @@
 package config
 
 import (
-    "gorm.io/gorm"
+	"gorm.io/gorm"
 )
 
 type mysqlConfig struct {
-    Name   string
-    Dsn    string
-    Config interface{}
+	Name   string
+	Dsn    string
+	Config interface{}
 }
 
 const (
-    MysqlConnNameDefault = "default"
+	MysqlConnNameDefault = "default"
 )
 
 var (
 
-    // MysqlDefault 默认配置
-    MysqlDefault = mysqlConfig{
-        Name:   MysqlConnNameDefault,
-        Dsn:    "",
-        Config: gorm.Config{},
-    }
+	// MysqlDefault 默认配置
+	MysqlDefault = mysqlConfig{
+		Name:   MysqlConnNameDefault,
+		Dsn:    "",
+		Config: gorm.Config{},
+	}
 )
